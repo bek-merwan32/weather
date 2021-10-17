@@ -41,7 +41,7 @@ function image(i) {
     }
 }
 inputname.addEventListener("keydown", function (e) {
-    if (e.code === "Enter") { 
+    if (e.keyCode == 13) { 
         func();
     }});
 
